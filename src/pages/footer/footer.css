@@ -1,0 +1,55 @@
+.footer-container{
+    background-color: #F0FFE5;
+
+}
+.footer-top-section-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width:100%; */
+}
+.footer-items{
+    margin-right:10px;
+}
+.footer-item-heading{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-text{
+    color:#838383;
+}
+.footer-ul-items{
+    list-style-type: none;
+    padding-left:0px;
+    color: #838383;
+
+}
+.footer-ul-items > li{
+    margin:6px;
+}
+.footer-bottom-section{
+    padding:25px;
+}
+.email-input{
+    height:30px;
+    width:100%;
+    border:1px solid black;
+    border-radius: 3px;
+    padding:10px;
+}
+.subscribe-btn{
+    height:30px;
+    width:120px;
+    
+    background: #247822;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    color:white;
+    margin-top:10px;
+}
+.social-media-icons{
+    font-size: 25px;
+    margin:5px;
+    margin-right:10px;
+}

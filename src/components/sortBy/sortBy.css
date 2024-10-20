@@ -1,0 +1,62 @@
+/* SortBy.css */
+
+.sort-main-container{
+    display:flex;
+   
+}
+.product-name{
+  margin-right:15px;
+}
+.sort-container {
+    display: flex;
+    justify-content: center;
+    position:relative;
+    background-color: #165315;
+    height:30px;
+    width: 170px;
+    color:white;
+    align-items: center;
+    align-self: center;
+    z-index: 1000;
+
+  }
+.sort-name-arrow-c{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sort-container > .sort-name-arrow-c > span {
+    font-weight: bold;
+}
+.sort-by-down-arrow{
+    color:white;
+}
+  .sort-button {
+    margin-left: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .sort-dropdown {
+    position: absolute;
+    top:100%;
+    left:0;
+    background-color: #165315;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 170px;
+  }
+  
+  .sort-dropdown label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox {
+    margin-right: 5px;
+  }
+  

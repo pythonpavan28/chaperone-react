@@ -1,0 +1,135 @@
+/* ItemList.css */
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  /* .item-card:hover {
+    transform: scale(1.05);
+  } */
+  
+  .item-card img {
+    width: 100%;
+  }
+  .view-product{
+    background-color: #165315;
+    color:white;
+    height:30px;
+    width:100%;
+    text-align:center;
+    padding:3px;
+    border:none;
+    cursor: pointer;
+   
+  }
+
+  .item-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .item-description {
+    font-size: 14px;
+    color: #666;
+  }
+  .rating{
+    color:#666;
+  }
+  .item-price {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .discount-price{
+    font-size:20px;
+  }
+  .item-price del {
+    color: #666;
+    font-weight: normal;
+  }
+
+  .cart-buy-btn-c{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+  }
+ 
+  
+  .cart-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right:10px;
+  }
+  .plus-minus-button{
+    height:30px;
+    width:30px;
+    background-color: #165315;
+    color:white;
+    border:none;
+  }
+  .add-to-cart-btn{
+    height:30px;
+    width:120px;
+    color:white;
+    background-color: #165315;
+    border:none;
+    border-radius: 10px;
+
+  }
+  .buy-on-rent-btn{
+    height:30px;
+    width:120px;
+    color:#165315;
+    background-color: transparent;
+    border:1px solid #165315;
+    border-radius: 10px;
+  }
+  .like-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .like-button.liked {
+    color: red;
+  }
+  .prev-next-btn{
+    height:25px;
+    
+  }
+  @media screen and (max-width:767px) {
+    .item-card{
+        width:100%;
+    }
+    .item-description-container{
+        font-size: 25px;
+    }
+    .item-name{
+        font-size: 25px;
+    }
+    .item-description{
+        font-size: 25px;
+    }
+    .view-product{
+        height:40px;
+        font-size: 28px;
+    }
+   
+  }

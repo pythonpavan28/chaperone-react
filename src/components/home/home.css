@@ -1,0 +1,20 @@
+.home-main-contianer{
+    padding:20px;
+}
+.home-sub-container{
+    display:flex;
+}
+
+@media screen and (max-width:767px){
+    .home-sub-container{
+        display:flex;
+        flex-direction: column;
+       
+    }
+    .sort-products-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
